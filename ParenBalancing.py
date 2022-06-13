@@ -1,5 +1,5 @@
 
-#use stack to check if the parentheses are balanced 
+#Here we are using stack to check if the parentheses are balanced 
 
 #Algorithm:
 
@@ -10,8 +10,6 @@
 #if detect closing bracket, assign the index of myChar within the closing_brackets list to the current position
 #check if the current character is a corresponding parenthesis/bracket, if matches then pop it from stack.
 #return true or false as matched or unmatched, the string traversal is done. 
-
-
 
 
 def matching_parentheses(InputString):
@@ -68,60 +66,11 @@ def matching_parentheses(InputString):
 				
 	return True if not myStack else False 
 	
-			
-
-
+		
 
 myString = input("Input: ")
 
 
 #Call function 
 
-print('Output:', matching_parentheses(myString))
-
-
-
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+print('Output:', matching_parentheses(myString))	
